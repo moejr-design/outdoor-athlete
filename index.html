@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Outdoor Athlete</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">OUTDOOR ATHLETE</div>
+      <h1 id="pageTitle">Today</h1>
+    </div>
+    <button class="icon-btn" id="installHelpBtn" aria-label="Install help">＋</button>
+  </header>
+
+  <main id="app"></main>
+
+  <nav class="bottom-nav" aria-label="Primary">
+    <button data-route="today" class="nav-btn active"><span>●</span><small>Today</small></button>
+    <button data-route="plan" class="nav-btn"><span>▤</span><small>Plan</small></button>
+    <button data-route="library" class="nav-btn"><span>⌕</span><small>Library</small></button>
+    <button data-route="history" class="nav-btn"><span>↗</span><small>History</small></button>
+    <button data-route="settings" class="nav-btn"><span>⚙</span><small>Settings</small></button>
+  </nav>
+
+  <dialog id="modal"></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
