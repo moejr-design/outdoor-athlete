@@ -38,3 +38,10 @@ A service worker requires HTTP/HTTPS, not just double-clicking index.html. From 
 `python -m http.server 8000`
 
 Then open http://localhost:8000.
+
+## v1.1 update
+- Warm-up items are tappable and open technique references.
+- Workout exercise names are tappable and open technique references.
+- Exercise library items are tappable.
+- Saved workouts in History can now be opened to review sets, reps, loads, notes, RPE and energy.
+- Exercise references include a quick YouTube demo search link.
